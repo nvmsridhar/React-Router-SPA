@@ -1,7 +1,7 @@
 {
   "name": "react",
   "version": "0.0.0",
-  "homepage": "https://nvmsridhar.github.io/React-Router-SPA",
+  "homepage": "https://react-router-spa-git-master-nvmsridhar.vercel.app",
   "private": true,
   "dependencies": {
     "react": "^17.0.2",
@@ -9,15 +9,12 @@
     "react-router-dom": "^5.3.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "react-scripts": "latest",
-    "gh-pages": "^2.2.0"
+    "react-scripts": "latest"
   }
 }
